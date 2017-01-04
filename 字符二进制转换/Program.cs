@@ -12,7 +12,7 @@ namespace 字符二进制转换
 		{
 			string data = "1F4EF698586B410C";
 			//8个字节
-			string key = "jackie11";
+			string key = "jackie11";  
 			//string jiema = Change.bianma(data);
 			//Console.WriteLine(Change.jiema(jiema));
 			string one = Change.EncryptString(data, key);
